@@ -142,6 +142,7 @@ h1, h2, h3, p { margin: 0; }
 .card h3 { font-family: var(--font-head); font-weight: 700; font-size: 20px; }
 .card p { font-size: 15px; line-height: 1.55; color: var(--slate); }
 
+#about .container { padding-top: 88px; padding-bottom: 0; }
 #services .container { display: flex; flex-direction: column; gap: 40px; padding-top: 88px; padding-bottom: 40px; }
 .tier { background: var(--white); border-radius: 20px; padding: 32px; display: flex; flex-wrap: wrap; align-items: center; gap: 24px 40px; }
 .tier-copy { flex: 1 1 380px; min-width: 0; display: flex; flex-direction: column; gap: 8px; }
@@ -244,6 +245,7 @@ summary { cursor: pointer; padding: 18px 0; font-family: var(--font-head); font-
   .why-intro h2 { font-size: 32px; }
   .hero .container { padding-top: 48px; padding-bottom: 64px; gap: 40px; }
   .section-pad, #services .container, .reset .container, .roi .container, #why .container, .faq .container { padding-top: 56px; padding-bottom: 56px; }
+  #about .container { padding-top: 56px; padding-bottom: 0; }
   #services .container { padding-bottom: 24px; }
   .contact .container { padding-top: 56px; }
   .nav { gap: 0 20px; }
